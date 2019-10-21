@@ -32,7 +32,7 @@ xlabel('The Number of Generation');
 ylabel('The fitness');
 
 subplot(2,1,2);
-plot(1:total_gen, fitness_of_each_gen);
+semilogy(1:total_gen, fitness_of_each_gen);
 title('The Best Fitness in Each Generation')
 xlabel('The Number of Generation');
 ylabel('The fitness');
